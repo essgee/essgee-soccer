@@ -6,6 +6,7 @@ gem "middleman",              "~> 3.3.7"
 gem "middleman-livereload",   "~> 3.1.0"
 gem "rake"
 gem 'haml'
+gem "awesome_print"
 
 group :production do
   gem 'rack-contrib'
@@ -13,7 +14,6 @@ group :production do
 end
 
 group :development do
-  gem "awesome_print"
 end
 
 group :development, :test do
