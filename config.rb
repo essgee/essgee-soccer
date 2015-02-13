@@ -14,7 +14,11 @@ sprockets.append_path 'stylesheets/vendor'
 sprockets.append_path File.join root, 'foundation/js/foundation'
 asset_paths = sprockets.append_path File.join root, 'foundation/scss'
 
-ap asset_paths
+puts
+puts '== Asset paths'
+puts
+ap   asset_paths
+puts
 
 activate   :directory_indexes
 
