@@ -1,0 +1,17 @@
+.date {
+  @extend %content-with-header;
+
+  h3, p {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .month {
+    @extend %header;
+  }
+
+  .day {
+    @extend %content;
+    font-size: 3em;
+  }
+}

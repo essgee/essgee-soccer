@@ -1,0 +1,29 @@
+%content-with-header {
+  h3, p { margin: 0; }
+
+  %header, %content {
+    padding: 0.5em 0.75em;
+  }
+
+  %header {
+    border: 1px solid black;
+    background: #ccc;
+  }
+
+  %content {
+    border:     1px solid black;
+    border-top: none;
+  }
+}
+
+.content-with-header {
+  @extend %content-with-header;
+}
+
+.header {
+  @extend %header;
+}
+
+.content {
+  @extend %content;
+}
