@@ -1,15 +1,9 @@
 ---
-title: Welcome to Middleman
+title: soccer | essgee
 ---
 
-.row
-  .columns.small-12
-    %h1 Index
-
-.row
-  .columns.small-4
-    %p Col 1
-  .columns.small-4
-    %p Col 2
-  .columns.small-4
-    %p Col 3
+.row.collapse
+  .columns.small-3
+    = partial 'template/date'
+  .columns.small-9
+    = partial 'template/content_with_header'

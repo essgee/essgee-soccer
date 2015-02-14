@@ -32,3 +32,8 @@ configure :build do
   activate :asset_hash
 end
 
+helpers do
+  def date
+    partial 'template/date'
+  end
+end
