@@ -1,4 +1,10 @@
+lib_path = File.dirname(__FILE__) + "/lib"
+$LOAD_PATH.unshift lib_path
+puts '== Added dir to load path'
+print "== "; ap lib_path
+
 require 'awesome_print'
+require 'essgee_soccer'
 
 set  :css_dir,        'stylesheets'
 set  :js_dir,         'javascripts'
@@ -31,41 +37,3 @@ configure :build do
   activate :minify_javascript
   activate :asset_hash
 end
-
-helpers do
-  def month(post)
-    post.month
-  end
-
-  def day(post)
-    post.day
-  end
-
-  def title(post)
-    post.title
-  end
-
-  def copy(post)
-    post.copy
-  end
-
-  def featured(post)
-    post.featured
-  end
-
-  def created_at(post)
-    post.created_at
-  end
-
-  def updated_at(post)
-    post.updated_at
-  end
-end
-
-
-
-
-
-
-
-
