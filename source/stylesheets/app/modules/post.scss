@@ -1,0 +1,12 @@
+.post {
+  .date, .content-with-header { height: 200px; }
+
+  .date {
+    border-right: none;
+    .day { padding-top: 45px; }
+
+  }
+  .content-with-header {
+    overflow: hidden;
+  }
+}

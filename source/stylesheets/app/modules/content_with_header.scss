@@ -1,17 +1,17 @@
 %content-with-header {
+  border: 1px solid #aaa;
+
   h3, p { margin: 0; }
 
   %header, %content {
-    padding: 0.5em 0.75em;
+    padding: 0.5em;
   }
 
   %header {
-    border: 1px solid black;
     background: #ccc;
   }
 
   %content {
-    border:     1px solid black;
     border-top: none;
   }
 }
