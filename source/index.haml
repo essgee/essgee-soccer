@@ -2,9 +2,11 @@
 title: soccer | essgee
 ---
 
-.post
-  .row.collapse
-    .columns.small-2
-      = partial 'template/date'
-    .columns.small-10
-      = partial 'template/content_with_header'
+
+- data.posts.dates.each do |post|
+  .post
+    .row.collapse
+      .columns.small-2
+        = partial 'template/date', locals: { post: post }
+      .columns.small-10
+        = partial 'template/content_with_header', locals: { post: post }

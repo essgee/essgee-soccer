@@ -33,7 +33,39 @@ configure :build do
 end
 
 helpers do
-  def date
-    partial 'template/date'
+  def month(post)
+    post.month
+  end
+
+  def day(post)
+    post.day
+  end
+
+  def title(post)
+    post.title
+  end
+
+  def copy(post)
+    post.copy
+  end
+
+  def featured(post)
+    post.featured
+  end
+
+  def created_at(post)
+    post.created_at
+  end
+
+  def updated_at(post)
+    post.updated_at
   end
 end
+
+
+
+
+
+
+
+
