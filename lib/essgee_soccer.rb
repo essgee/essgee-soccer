@@ -7,8 +7,7 @@ module EssgeeSoccer
     @all_data || import_data
   end
 
-  def self.import_data
-    data_dir   = File.dirname(__FILE__) + "/../data/**/*.json"
+  def self.import_data(data_dir)
     json_files = Dir[data_dir]
 
     all_data = []
