@@ -10,10 +10,20 @@ title: styleguide | essgee_soccer
 .row
   .columns.small-12
     %p Game Template
-.row.collapse
-  .columns.small-2
-    = partial 'date_time',           locals: { post: game }
-  .columns.small-10
-    = partial 'content_with_header', locals: { post: game }
+    %p= game
+    = partial 'post', locals: { post: game }
+%hr
 
+.row
+  .columns.small-12
+    %p Date Template
+    %p= date
+    = partial 'post', locals: { post: date }
+%hr
+
+.row
+  .columns.small-12
+    %p Announcement Template
+    %p= announcement.inspect
+    = partial 'post', locals: { post: announcement }
 %hr
