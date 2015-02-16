@@ -1,3 +1,5 @@
+require 'active_support/core_ext/string/inflections'
+
 module EssgeeSoccer
 class  Datastore
 
@@ -13,7 +15,11 @@ class  Datastore
 
     all_data = []
     json_files.each do |json_file|
-      all_data += JSON.parse File.read(json_file)
+      json_objects = JSON.parse File.read(json_file)
+      json_objects.each do |json_object|
+        json_object['type'] = File.basename(json_file, '.json').singularize
+        all_data << json_object
+      end
     end
 
     all_data

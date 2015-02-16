@@ -7,6 +7,7 @@ gem "middleman-livereload",   "~> 3.1.0"
 gem "rake"
 gem 'haml'
 gem "awesome_print"
+gem 'activesupport'
 
 group :production do
   gem 'rack-contrib'
