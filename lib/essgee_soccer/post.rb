@@ -1,22 +1,18 @@
 module EssgeeSoccer
 class  Post
-  POST_TYPES = %W[game date announcement]
+  @data_dir = File.dirname(__FILE__) + "/../../data/**/*.json"
+
+  class << self
+    attr_accessor :data_dir
+  end
 
   def self.all
-    all_posts
+    @data_all ||= Datastore.new(data_dir: Post.data_dir).data
   end
 
-  def self.where(options)
-  end
-
-  private
-
-  def all_posts
-    @all_posts || EssgeeSoccer.data
-  end
-
-  def fetch_all_posts
-    import_hosts
+  def self.where(criteria)
+    k, v = criteria.shift
+    Post.all.select { |post| post[k.to_s].match(v) }
   end
 
 end

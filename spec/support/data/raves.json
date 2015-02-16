@@ -1,6 +1,6 @@
 [
   {
-    "type":       "test",
+    "type":       "rave",
     "date":       "16 Feb 2001 04:05:06 PM",
     "title":      "First Practice",
     "copy":       "5:30pm - 6:30pm (or dark) Gullett Elementary School. Come with: cleats, shin guards, and water.",
@@ -8,7 +8,7 @@
     "updated_at": "2/15/2015"
   },
   {
-    "type":       "test",
+    "type":       "rave",
     "date":       "28 Feb 2001 04:05:06 PM",
     "title":      "First Game",
     "copy":       "5:30pm - 6:30pm (or dark) Gullett Elementary School. Come with: cleats, shin guards, and water.",
@@ -16,7 +16,7 @@
     "updated_at": "2/15/2015"
   },
   {
-    "type":       "test",
+    "type":       "rave featured",
     "date":       "28 Mar 2001 04:05:06 PM",
     "title":      "Pictures",
     "copy":       "5:30pm - 6:30pm (or dark) Gullett Elementary School. Come with: cleats, shin guards, and water.",
