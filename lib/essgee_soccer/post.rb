@@ -7,7 +7,7 @@ class  Post
   end
 
   def self.all
-    @data_all ||= Datastore.new(data_dir: Post.data_dir).data
+    @data_all ||= Datastore.new(data_dir: Post.data_dir).data.sort { |a,b| DateTime.parse(b['date']) <=> DateTime.parse(a['date']) }
   end
 
   def self.where(criteria)
