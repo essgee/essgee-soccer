@@ -2,8 +2,8 @@
   .row
     .columns.small-12
       .month
-        %h3= month(post)
+        %h3= DateTime.parse(post['date']).strftime('%^b')
   .row
     .columns.small-12
       .day
-        %p= day(post)
+        %p= DateTime.parse(post['date']).strftime('%-d')

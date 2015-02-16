@@ -2,8 +2,8 @@
   .row
     .columns.small-12
       .header
-        %h3= title(post)
+        %h3= post['title']
   .row
     .columns.small-12
       .content
-        %p= copy(post)
+        %p= post['copy']

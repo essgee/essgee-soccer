@@ -3,7 +3,7 @@ title: soccer | essgee
 ---
 
 
-- data.posts.dates.each do |post|
+- EssgeeSoccer::Post.where(type: 'featured').each do |post|
   .post
     .row.collapse
       .columns.small-2
