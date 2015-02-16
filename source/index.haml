@@ -3,5 +3,5 @@ title: soccer | essgee
 ---
 
 
-- EssgeeSoccer::Post.where(type: 'featured').each do |post|
+- EssgeeSoccer::Post.includes(tag: 'featured').each do |post|
   = partial 'post', locals: { post: post }

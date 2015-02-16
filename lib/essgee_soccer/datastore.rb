@@ -17,12 +17,19 @@ class  Datastore
     json_files.each do |json_file|
       json_objects = JSON.parse File.read(json_file)
       json_objects.each do |json_object|
-        json_object['type'] = File.basename(json_file, '.json').singularize
+        json_object['type'] = type(json_file)
         all_data << json_object
       end
     end
 
     all_data
+  end
+
+  private
+
+  def type(json_file)
+    file_base_name = File.basename(json_file, '.json')
+    file_base_name == 'raves' ? 'rave' : file_base_name.singularize
   end
 end
 end
