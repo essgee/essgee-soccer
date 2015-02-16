@@ -5,7 +5,11 @@ print "== "; ap lib_path
 
 require 'awesome_print'
 require 'essgee_soccer'
+require 'essgee_helpers'
 
+helpers EssgeeHelpers
+
+set  :partials_dir,   'template'
 set  :css_dir,        'stylesheets'
 set  :js_dir,         'javascripts'
 set  :images_dir,     'images'

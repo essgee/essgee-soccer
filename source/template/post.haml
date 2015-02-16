@@ -1,0 +1,6 @@
+.post
+  .row.collapse
+    .columns.small-2
+      = partial 'date_time',           locals: { post: post }
+    .columns.small-10
+      = partial 'content_with_header', locals: { post: post }

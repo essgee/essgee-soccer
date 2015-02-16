@@ -1,0 +1,19 @@
+---
+title: styleguide | essgee_soccer
+---
+
+- announcement = EssgeeSoccer::Post.where(type: 'announcement').first
+- game         = EssgeeSoccer::Post.where(type: 'game').first
+- date         = EssgeeSoccer::Post.where(type: 'date').first
+
+
+.row
+  .columns.small-12
+    %p Game Template
+.row.collapse
+  .columns.small-2
+    = partial 'date_time',           locals: { post: game }
+  .columns.small-10
+    = partial 'content_with_header', locals: { post: game }
+
+%hr

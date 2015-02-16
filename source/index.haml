@@ -4,9 +4,4 @@ title: soccer | essgee
 
 
 - EssgeeSoccer::Post.where(type: 'featured').each do |post|
-  .post
-    .row.collapse
-      .columns.small-2
-        = partial 'template/date', locals: { post: post }
-      .columns.small-10
-        = partial 'template/content_with_header', locals: { post: post }
+  = partial 'post', locals: { post: post }
