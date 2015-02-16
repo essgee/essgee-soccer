@@ -1,7 +1,12 @@
 require 'active_support/core_ext/string/inflections'
+require 'active_support/inflections'
 
 module EssgeeSoccer
 class  Datastore
+
+SINGULAR_DICT = {
+  'raves' => 'rave',
+}
 
   attr_reader :data_dir, :data
 
@@ -29,7 +34,16 @@ class  Datastore
 
   def type(json_file)
     file_base_name = File.basename(json_file, '.json')
-    file_base_name == 'raves' ? 'rave' : file_base_name.singularize
+    singularize(file_base_name)
+  end
+
+  def singularize(file_base_name)
+    if SINGULAR_DICT.keys.include? file_base_name
+      SINGULAR_DICT[file_base_name]
+    else
+      file_base_name.singularize
+    end
+
   end
 end
 end
