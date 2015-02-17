@@ -41,7 +41,7 @@ configure :build do
   ignore   '/template/date.haml'
   ignore   '/template/date_time.haml'
   ignore   '/template/post.haml'
-  ignore   '/style_guide.haml'
+  ignore   '/template/style_guide.haml'
 
   activate :minify_css
   activate :minify_javascript
