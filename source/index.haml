@@ -3,5 +3,5 @@ title: soccer | essgee
 ---
 
 
-- EssgeeSoccer::Post.includes(tag: 'featured').each do |post|
+- EssgeeSoccer::Post.includes(tag: 'featured').order(date: :desc).each do |post|
   = partial 'post', locals: { post: post }
