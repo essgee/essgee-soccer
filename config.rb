@@ -37,6 +37,12 @@ configure :development do
 end
 
 configure :build do
+  ignore   '/template/content_with_header.haml'
+  ignore   '/template/date.haml'
+  ignore   '/template/date_time.haml'
+  ignore   '/template/post.haml'
+  ignore   '/style_guide.haml'
+
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash

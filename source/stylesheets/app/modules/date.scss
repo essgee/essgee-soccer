@@ -1,5 +1,5 @@
 .date {
-  @extend %content-with-header;
+  @extend %content-with-header !optional;
 
   h3, p {
     text-align: center;
@@ -7,11 +7,11 @@
   }
 
   .month {
-    @extend %header;
+    @extend %header !optional;
   }
 
   .day {
-    @extend %content;
+    @extend %content !optional;
     font-size: 1.5em;
   }
 }
