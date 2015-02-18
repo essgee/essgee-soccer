@@ -15,21 +15,6 @@ describe Array do
     EssgeeSoccer::Post.data_dir = data_dir
   end
 
-  describe '#includes' do
-    context 'tag value class is String' do
-      it 'returns only posts that have a tag' do
-        expect(EssgeeSoccer::Post.all.includes(tag: 'featured').count).to eql 3
-      end
-    end
-
-    context 'tag value class is Array' do
-      it 'returns only posts that have all the tags' do
-        expect(EssgeeSoccer::Post.all.includes(tags: %w[featured hipsters]).count).to eql 1
-      end
-    end
-
-  end
-
   describe '#order' do
     it 'returns an array sorted by date descending' do
       json_objects = EssgeeSoccer::Post.all.order(date: :desc)
