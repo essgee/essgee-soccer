@@ -2,6 +2,14 @@ require 'spec_helper'
 
 describe Array do
   let(:data_dir)    { File.dirname(__FILE__) + "/../../support/data/**/*.json" }
+  let(:dats_rand)   { [  "28 Feb 2015 1:00:00 PM",
+                         "18 Apr 2015 08:00:00 AM",
+                         "25 Mar 2015 1:00:00 PM",
+
+                         "18 Feb 2015 04:05:06 PM",
+                         "18 Mar 2015 04:05:06 PM",
+                         "16 Mar 2015 08:00:00 AM", ] }
+
   let(:dates_desc)  { [  "18 Apr 2015 08:00:00 AM",
                          "25 Mar 2015 1:00:00 PM",
                          "18 Mar 2015 04:05:06 PM",
