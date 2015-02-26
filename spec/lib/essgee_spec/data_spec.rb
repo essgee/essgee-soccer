@@ -49,5 +49,18 @@ describe Data do
     end
   end
 
+  describe 'method chaining' do
+    it 'selects and orders data' do
+      data         = Data.new posts_data
+      data_final   = data.where(type: 'hackathon')
+                         .order_by_date(:desc)
+      sorted_dates = data_final.map { |e| e['date'] }
+
+      expect(sorted_dates).to \
+        eql [ "16 Aug 2015 08:00:00 AM",
+              "18 Jul 2015 08:00:00 AM" ]
+    end
+  end
+
 end
 end

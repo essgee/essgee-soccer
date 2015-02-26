@@ -19,7 +19,8 @@ class  Data
 
   def where(param)
     k, v = param.shift
-    self.select { |e| e[k.to_s] == v }
+    selected = self.select { |e| e[k.to_s] == v }
+    Data.new selected
   end
 
   def order_by_date(direction)
@@ -27,7 +28,7 @@ class  Data
       date_time(a['date']) <=> date_time(b['date'])
     end
 
-    case direction
+    ordered = case direction
     when :asc
       sorted
     when :desc
@@ -36,6 +37,7 @@ class  Data
       raise "direction #{direction.to_s} not defined"
     end
 
+    Data.new ordered
   end
 
   private
