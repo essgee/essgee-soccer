@@ -1,58 +1,51 @@
 [
   {
-    "date":       "28 Feb 2015 9:30:00 AM",
-    "title":      "First Game",
-    "copy":       "@ Lucy Read.  Field 2",
-    "tags":       [ "featured" ],
-    "snack":      "Elena"
-  },
-  {
     "date":       "7 Mar 2015 10:30:00 AM",
     "title":      "Game",
     "copy":       "@ Lucy Read.  Field 2",
-    "tags":       [],
+    "tag":        "",
     "snack":      "Anna"
   },
   {
     "date":       "28 Mar 2015 11:30:00 AM",
     "title":      "Game",
     "copy":       "@ Lucy Read.  Field 2",
-    "tags":       [],
+    "tag":        "",
     "snack":      "Lily"
   },
   {
     "date":       "4 Apr 2015 11:30:00 AM",
     "title":      "Game",
     "copy":       "@ Lucy Read.  Field 2",
-    "tags":       [],
+    "tag":        "",
     "snack":      "Finley"
   },
   {
     "date":       "11 Apr 2015 10:30:00 AM",
     "title":      "Game",
     "copy":       "@ Lucy Read.  Field 2",
-    "tags":       [],
+    "tag":        "",
     "snack":      "Samantha"
   },
   {
     "date":       "18 Apr 2015 9:30:00 AM",
     "title":      "Game",
     "copy":       "@ Lucy Read.  Field 2",
-    "tags":       [],
+    "tag":        "",
     "snack":      "Jane"
   },
   {
     "date":       "25 Apr 2015 8:30:00 AM",
     "title":      "Game",
     "copy":       "@ Lucy Read.  Field 2",
-    "tags":       [],
+    "tag":        "",
     "snack":       "Hazel"
   },
   {
     "date":       "9 May 2015 8:30:00 AM",
     "title":      "Last Game",
     "copy":       "@ Lucy Read.  Field 2",
-    "tags":       [],
+    "tag":        "",
     "snack":      "Greta"
   }
 ]

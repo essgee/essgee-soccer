@@ -8,6 +8,14 @@ module Post
     Post.data
   end
 
+  def self.where(param)
+    Post.data.where(param)
+  end
+
+  def self.order_by_date(direction)
+    Post.data.order_by_date(direction)
+  end
+
   def self.data
     @data ||= Post.import_data(data_dir: POST_DATA_DIR)
   end

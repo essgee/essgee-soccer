@@ -24,7 +24,7 @@ describe JsonImporter do
                   "copy"       => "7:00pm Hounds Tooth",
                   "created_at" => "2/15/2015",
                   "updated_at" => "2/15/2015",
-                  "tags"       => [ "featured", "hipsters" ] })
+                  "tag"       => [ "featured", "hipsters" ] })
     end
 
     it 'adds a type entry named from the singular of the filename' do
