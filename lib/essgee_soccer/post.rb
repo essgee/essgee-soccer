@@ -9,7 +9,7 @@ module Post
   end
 
   def self.data
-    @data ||= Post.import_data(POST_DATA_DIR)
+    @data ||= Post.import_data(data_dir: POST_DATA_DIR)
   end
 
   def self.import_data(data_dir:)
