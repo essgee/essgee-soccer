@@ -1,10 +1,58 @@
 [
   {
-    "date":       "28 Feb 2015 8:00:00 AM",
+    "date":       "28 Feb 2015 9:30:00 AM",
     "title":      "First Game",
-    "copy":       "@Pillow Elementary School.  Field 3",
-    "created_at": "2/15/2015",
-    "updated_at": "2/16/2015",
-    "tags":       [ "featured" ]
+    "copy":       "@ Lucy Read.  Field 2",
+    "tags":       [ "featured" ],
+    "snack":      "Elena"
+  },
+  {
+    "date":       "7 Mar 2015 10:30:00 AM",
+    "title":      "Game",
+    "copy":       "@ Lucy Read.  Field 2",
+    "tags":       [],
+    "snack":      "Anna"
+  },
+  {
+    "date":       "28 Mar 2015 11:30:00 AM",
+    "title":      "Game",
+    "copy":       "@ Lucy Read.  Field 2",
+    "tags":       [],
+    "snack":      "Lily"
+  },
+  {
+    "date":       "4 Apr 2015 11:30:00 AM",
+    "title":      "Game",
+    "copy":       "@ Lucy Read.  Field 2",
+    "tags":       [],
+    "snack":      "Finley"
+  },
+  {
+    "date":       "11 Apr 2015 10:30:00 AM",
+    "title":      "Game",
+    "copy":       "@ Lucy Read.  Field 2",
+    "tags":       [],
+    "snack":      "Samantha"
+  },
+  {
+    "date":       "18 Apr 2015 9:30:00 AM",
+    "title":      "Game",
+    "copy":       "@ Lucy Read.  Field 2",
+    "tags":       [],
+    "snack":      "Jane"
+  },
+  {
+    "date":       "25 Apr 2015 8:30:00 AM",
+    "title":      "Game",
+    "copy":       "@ Lucy Read.  Field 2",
+    "tags":       [],
+    "snack":       "Hazel"
+  },
+  {
+    "date":       "9 May 2015 8:30:00 AM",
+    "title":      "Last Game",
+    "copy":       "@ Lucy Read.  Field 2",
+    "tags":       [],
+    "snack":      "Greta"
   }
 ]
