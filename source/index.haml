@@ -4,4 +4,4 @@ title: soccer | essgee
 
 
 - EssgeeSoccer::Post.where(tag: 'featured').order_by_date(:asc).each do |post|
-  = partial 'post', locals: { post: post }
+  = partial "post_#{post['type']}", locals: { post: post }
