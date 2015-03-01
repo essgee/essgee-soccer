@@ -2,9 +2,9 @@
   .row
     .columns.small-12
       .header
-        %h3= post['title']
+        -# %h3= post['type'].capitalize
+        %p foo
   .row
     .columns.small-12
       .content
-        %p= post['copy']
-        %p= "snack: #{post['snack']}"
+        = content(post)

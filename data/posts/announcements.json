@@ -1,20 +1,30 @@
 [
   {
     "date":       "28 Feb 2015",
-    "title":      "First Game Cancelled",
-    "copy":       "Bad weather",
+    "md":         [
+                    "First Game Cancelled",
+                    "Bad weather"
+                  ],
     "tag":        "featured"
   },
+
   {
     "date":       "14 Mar 2015",
-    "title":      "No Game",
-    "copy":       "AISD Spring Break",
+    "md":         [
+                    "No Game",
+                    "AISD Spring Break"
+                  ],
     "tag":        "featured"
+
   },
+
   {
     "date":       "21 Mar 2015",
-    "title":      "No Game",
-    "copy":       "AISD Spring Break",
+    "md":         [
+                    "No Game",
+                    "AISD Spring Break"
+                  ],
     "tag":        "featured"
+
   }
 ]
