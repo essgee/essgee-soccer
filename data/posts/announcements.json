@@ -2,7 +2,7 @@
   {
     "date":       "28 Feb 2015",
     "md":         [
-                    "First Game Cancelled",
+                    "First Game Cancelled\n\n",
                     "Bad weather"
                   ],
     "tag":        "featured"
@@ -12,7 +12,7 @@
     "date":       "14 Mar 2015",
     "md":         [
                     "No Game",
-                    "AISD Spring Break"
+                    "AISD Spring Break\n\n"
                   ],
     "tag":        "featured"
 
@@ -22,7 +22,7 @@
     "date":       "21 Mar 2015",
     "md":         [
                     "No Game",
-                    "AISD Spring Break"
+                    "AISD Spring Break\n\n"
                   ],
     "tag":        "featured"
 

@@ -3,7 +3,7 @@
   {
     "date":       "7 Mar 2015 10:30:00 AM",
     "md":         [
-                    "@ Lucy Read.  Field 2.  Possible reschedule",
+                    "@ Lucy Read.  Field 2.  Possible reschedule\n\n",
                     "snack: Anna"
                   ],
     "tag":        "featured"
@@ -12,7 +12,7 @@
   {
     "date":       "28 Mar 2015 11:30:00 AM",
     "md":         [
-                    "@ Lucy Read.  Field 2",
+                    "@ Lucy Read.  Field 2\n\n",
                     "snack: Lily"
                   ],
     "tag":        ""
@@ -21,7 +21,7 @@
   {
     "date":       "4 Apr 2015 11:30:00 AM",
     "md":         [
-                    "@ Lucy Read.  Field 2",
+                    "@ Lucy Read.  Field 2\n\n",
                     "snack: Finley"
                   ],
     "tag":        ""
@@ -30,7 +30,7 @@
   {
     "date":       "11 Apr 2015 10:30:00 AM",
     "md":         [
-                    "@ Lucy Read.  Field 2",
+                    "@ Lucy Read.  Field 2\n\n",
                     "snack: Samantha"
                   ],
     "tag":        ""
@@ -39,7 +39,7 @@
   {
     "date":       "18 Apr 2015 9:30:00 AM",
     "md":         [
-                    "@ Lucy Read.  Field 2",
+                    "@ Lucy Read.  Field 2\n\n",
                     "snack: Jane"
                   ],
     "tag":        ""
@@ -48,7 +48,7 @@
   {
     "date":       "25 Apr 2015 8:30:00 AM",
     "md":         [
-                    "@ Lucy Read.  Field 2",
+                    "@ Lucy Read.  Field 2\n\n",
                     "snack: Hazel"
                   ],
     "tag":        ""
@@ -57,7 +57,7 @@
   {
     "date":       "9 May 2015 8:30:00 AM",
     "md":         [
-                    "@ Lucy Read.  Field 2",
+                    "@ Lucy Read.  Field 2\n\n",
                     "snack: Finley"
                   ],
     "tag":        ""
