@@ -2,9 +2,9 @@ module EssgeeHelpers
   def date(post)
     case post['type']
     when 'announcement'
-      "#{day(post)} #{month(post)}"
+      "<p><span class='post-date'>#{day(post)} #{month(post)}</span></p>"
     else
-      "#{day(post)} #{month(post)} <span class='time'>#{time(post)}</span>"
+      "<p><span class='post-date'>#{day(post)} #{month(post)} <span class='time'>#{time(post)}</span></span></p>"
     end
   end
 
