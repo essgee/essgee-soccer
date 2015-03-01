@@ -1,8 +1,10 @@
 .row
   .columns.small-12
     .post{ class: "post-#{post['type']}" }
-      .row.collapse
-        .columns.small-4
-          = partial 'date_time',           locals: { post: post }
-        .columns.small-8
-          = partial 'content_with_header', locals: { post: post }
+      .row
+        .columns.small-12
+          .header.header-skin
+            %p= post['type'].capitalize
+          .content.content-skin
+            %p= date(post)
+            %p= post['copy']

@@ -1,14 +1,24 @@
+.header {
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+
+.header-skin {
+  border: 1px solid #aaa;
+}
+
+
+.content {
+ padding: 0.5em 1em;
+}
+
+.content-skin {
+  border: 1px solid #aaa;
+}
+
 .post {
   margin-top: 1em;
-
-  .date, .content-with-header { height: 200px; }
-
-  .date {
-    border-right: none;
-    .day { padding-top: 30px; }
-
-  }
-  .content-with-header {
-    overflow: hidden;
+  span.time {
+    margin-left: 0.5em;
   }
 }

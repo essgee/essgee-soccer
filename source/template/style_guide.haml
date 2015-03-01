@@ -11,19 +11,19 @@ title: styleguide | essgee_soccer
   .columns.small-12
     %p Game Template
     %p= game
-    = partial 'post_game', locals: { post: game }
+    = partial 'post', locals: { post: game }
 %hr
 
 .row
   .columns.small-12
     %p Date Template
     %p= date
-    = partial 'post_date', locals: { post: date }
+    = partial 'post', locals: { post: date }
 %hr
 
 .row
   .columns.small-12
     %p Announcement Template
     %p= announcement.inspect
-    = partial 'post_announcement', locals: { post: announcement }
+    = partial 'post', locals: { post: announcement }
 %hr
