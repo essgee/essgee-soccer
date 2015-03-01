@@ -1,11 +1,6 @@
 ---
-title: soccer | essgee
+title: Upcoming
 ---
-
-.row
-  .columns.small-12
-    .page-header
-      %h1 Blue Dolphins
 
 - EssgeeSoccer::Post.where(tag: 'featured').order_by_date(:asc).each do |post|
   = partial 'post', locals: { post: post }

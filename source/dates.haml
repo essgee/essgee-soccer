@@ -1,0 +1,6 @@
+---
+title: Dates
+---
+
+- EssgeeSoccer::Post.where(type: 'date').order_by_date(:asc).each do |post|
+  = partial 'post', locals: { post: post }
