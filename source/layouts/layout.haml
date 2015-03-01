@@ -17,11 +17,29 @@
 
 
   %body
-    .row
-      .columns.small-12
-        .page-header
-          %h1 Blue Dolphins
+    .off-canvas-wrap{ "data-offcanvas" => true }
+      .inner-wrap
+        .tab-bar
+          %section.left.tab-bar-section.text-left
+            %h1.title= link_to "Blue Dolphins", '/'
 
-    = yield
+          %section.right-small
+            %a.right-off-canvas-toggle.menu-icon{ href: '#'} <span></span>
 
+        %aside.right-off-canvas-menu
+          %ul.off-canvas-list
+            %li <label>Blue Dolphins</label>
+            %li= link_to 'Home',          '/'
+            %li= link_to 'Games',         '/games'
+            %li= link_to 'Announcements', '/announcements'
+            %li= link_to 'Dates',         '/dates'
+
+        %section.main-section
+          .row
+            .columns.small-12
+              %h3= current_page.data.title
+          = yield
+
+        %a.exit-off-canvas
     = javascript_include_tag  "app/body"
+
