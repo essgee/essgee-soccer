@@ -2,9 +2,9 @@
   .columns.small-12
     .row
       .columns.small-12
-        .post{ class: "post-#{post['type']}" }
+        .post.post-simple{ class: post['type'] }
           .header
-            %p= header(post)
+            = header(post)
           .content
             = date(post)
             = content(post)

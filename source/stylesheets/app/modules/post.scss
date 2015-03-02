@@ -1,29 +1,9 @@
-.post {
-  p {
-    margin: 0;
-  }
-
+.post%post-style%post-type {
   margin-top: 1em;
 
   .header,
   .content {
     padding: 0.5em 1em;
-    border:  1px solid #aaa;
-  }
-
-  .header {
-    font-weight: bold;
-  }
-
-  .content {
-  }
-
-  span.post-date {
-    font-family: 'Inconsolata';
-    font-size:   1.25em;
-  }
-
-  span.time {
-    margin-left: 0.5em;
+    & > * { margin: 0; }
   }
 }

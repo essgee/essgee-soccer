@@ -1,3 +1,4 @@
-.post.post-game {
+.game {
+  @extend %post-type;
   background-color: #E9F4FF;
 }

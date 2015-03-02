@@ -7,6 +7,7 @@ module EssgeeHelpers
   end
 
   def header(post)
-    post['type'].capitalize
+    header = post['type'].capitalize
+    "<p>#{header}</p>"
   end
 end

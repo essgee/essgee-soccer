@@ -1,3 +1,4 @@
-.post.post-announcement {
+.announcement {
+  @extend %post-type;
   background-color: #FFFBE7;
 }
