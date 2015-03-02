@@ -1,10 +1,10 @@
 .row
   .columns.small-12
-    .post{ class: "post-#{post['type']}" }
-      .row
-        .columns.small-12
-          .header.header-skin
+    .row
+      .columns.small-12
+        .post{ class: "post-#{post['type']}" }
+          .header
             %p= post['type'].capitalize
-          .content.content-skin
+          .content
             = date(post)
             = content(post)

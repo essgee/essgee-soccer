@@ -1,27 +1,28 @@
-.header {
-  padding: 0.5em 1em;
-  font-weight: bold;
-}
-
-.header-skin {
-  border: 1px solid #aaa;
-}
-
-
-.content {
- padding: 0.5em 1em;
-}
-
-.content-skin {
-  border: 1px solid #aaa;
-}
-
 .post {
+  p {
+    margin: 0;
+  }
+
   margin-top: 1em;
+
+  .header,
+  .content {
+    padding: 0.5em 1em;
+    border:  1px solid #aaa;
+  }
+
+  .header {
+    font-weight: bold;
+  }
+
+  .content {
+  }
+
   span.post-date {
     font-family: 'Inconsolata';
-    font-size: 1.25em;
+    font-size:   1.25em;
   }
+
   span.time {
     margin-left: 0.5em;
   }
