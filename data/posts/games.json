@@ -1,21 +1,11 @@
 [
-
-  {
-    "date":       "7 Mar 2015 10:30:00 AM",
-    "md":         [
-                    "@ Lucy Read.  Field 2.  Possible reschedule\n\n",
-                    "snack: Anna"
-                  ],
-    "tag":        "featured"
-  },
-
   {
     "date":       "28 Mar 2015 11:30:00 AM",
     "md":         [
                     "@ Lucy Read.  Field 2\n\n",
                     "snack: Lily"
                   ],
-    "tag":        ""
+    "tag":        "featured"
   },
 
   {
@@ -50,6 +40,15 @@
     "md":         [
                     "@ Lucy Read.  Field 2\n\n",
                     "snack: Hazel"
+                  ],
+    "tag":        ""
+  },
+
+  {
+    "date":       "2 May 2015 10:30:00 AM",
+    "md":         [
+                    "@ Lucy Read.  Field 2\n\n",
+                    "snack: Anna"
                   ],
     "tag":        ""
   },

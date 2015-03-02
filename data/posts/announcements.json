@@ -1,18 +1,21 @@
 [
+
   {
-    "date":       "28 Feb 2015",
+    "date":       "7 Mar 2015",
     "md":         [
-                    "First Game Cancelled\n\n",
-                    "Bad weather"
+                    "Bye week - **no game**\n\n",
+                    "Game rescheduled to 2 May.\n\n",
+                    "Games page updated"
                   ],
     "tag":        "featured"
+
   },
 
   {
     "date":       "14 Mar 2015",
     "md":         [
-                    "No Game",
-                    "AISD Spring Break\n\n"
+                    "No Game\n\n",
+                    "AISD Spring Break"
                   ],
     "tag":        "featured"
 
@@ -21,8 +24,8 @@
   {
     "date":       "21 Mar 2015",
     "md":         [
-                    "No Game",
-                    "AISD Spring Break\n\n"
+                    "No Game\n\n",
+                    "AISD Spring Break"
                   ],
     "tag":        "featured"
 
