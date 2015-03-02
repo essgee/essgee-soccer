@@ -1,4 +1,4 @@
 .announcement {
-  @extend %post-type;
+  @extend %post-type !optional;
   background-color: #FFFBE7;
 }

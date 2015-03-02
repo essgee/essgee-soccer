@@ -1,4 +1,4 @@
 .game {
-  @extend %post-type;
+  @extend %post-type !optional;
   background-color: #E9F4FF;
 }

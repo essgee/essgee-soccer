@@ -1,4 +1,4 @@
 .date {
-  @extend %post-type;
+  @extend %post-type !optional;
   background-color: #FFE9E7;
 }

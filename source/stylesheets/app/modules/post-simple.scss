@@ -1,5 +1,5 @@
 .post-simple {
-  @extend %post-style;
+  @extend %post-style !optional;
 
   .header,
   .content {
