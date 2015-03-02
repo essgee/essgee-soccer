@@ -4,7 +4,7 @@
       .columns.small-12
         .post{ class: "post-#{post['type']}" }
           .header
-            %p= post['type'].capitalize
+            %p= header(post)
           .content
             = date(post)
             = content(post)
