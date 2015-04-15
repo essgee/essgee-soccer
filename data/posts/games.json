@@ -1,29 +1,11 @@
 [
   {
-    "date":       "4 Apr 2015 11:30:00 AM",
-    "md":         [
-                    "@ Lucy Read.  Field 2\n\n",
-                    "snack: Finley"
-                  ],
-    "tag":        "featured"
-  },
-
-  {
-    "date":       "11 Apr 2015 10:30:00 AM",
-    "md":         [
-                    "@ Lucy Read.  Field 2\n\n",
-                    "snack: Samantha"
-                  ],
-    "tag":        ""
-  },
-
-  {
     "date":       "18 Apr 2015 9:30:00 AM",
     "md":         [
                     "@ Lucy Read.  Field 2\n\n",
                     "snack: Jane"
                   ],
-    "tag":        ""
+    "tag":        "featured"
   },
 
   {
@@ -49,6 +31,16 @@
     "md":         [
                     "@ Lucy Read.  Field 2\n\n",
                     "snack: Finley"
+                  ],
+    "tag":        ""
+  },
+
+  {
+    "date":       "16 May 2015 9:30:00 AM",
+    "md":         [
+                    "Rain day makeup\n\n",
+                    "@ Lucy Read.  Field 2\n\n",
+                    "snack: Elena"
                   ],
     "tag":        ""
   }

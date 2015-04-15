@@ -1,31 +1,11 @@
 [
   {
-    "date":       "3 Apr 2015 6:30:00 PM",
-    "md":         [
-                    "Player Development Clinic\n\n",
-                    "@ Burnet Middle School"
-                  ],
-    "tag":        "featured"
-
-  },
-
-  {
-    "date":       "10 Apr 2015 6:30:00 PM",
-    "md":         [
-                    "Player Development Clinic\n\n",
-                    "@ Burnet Middle School"
-                  ],
-    "tag":        ""
-
-  },
-
-  {
     "date":       "17 Apr 2015 6:30:00 PM",
     "md":         [
                     "Player Development Clinic\n\n",
                     "@ Burnet Middle School"
                   ],
-    "tag":        ""
+    "tag":        "featured"
 
   },
 
