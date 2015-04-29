@@ -1,20 +1,11 @@
 [
   {
-    "date":       "25 Apr 2015 8:30:00 AM",
-    "md":         [
-                    "@ Lucy Read.  Field 2\n\n",
-                    "snack: Hazel"
-                  ],
-    "tag":        "featured"
-  },
-
-  {
     "date":       "2 May 2015 10:30:00 AM",
     "md":         [
                     "@ Lucy Read.  Field 2\n\n",
                     "snack: Anna"
                   ],
-    "tag":        ""
+    "tag":        "featured"
   },
 
   {
