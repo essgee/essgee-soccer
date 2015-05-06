@@ -2,5 +2,10 @@
 title: Games
 ---
 
-- EssgeeSoccer::Post.where(type: 'game').order_by_date(:asc).each do |post|
-  = partial 'post', locals: { post: post }
+- games = EssgeeSoccer::Post.where(type: 'game').order_by_date(:asc)
+
+- if games.empty?
+  %p.text-center None.
+- else
+  - games.each do |post|
+    = partial 'post', locals: { post: post }

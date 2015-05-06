@@ -2,5 +2,10 @@
 title: Announcements
 ---
 
-- EssgeeSoccer::Post.where(type: 'announcement').order_by_date(:asc).each do |post|
-  = partial 'post', locals: { post: post }
+- posts = EssgeeSoccer::Post.where(type: 'announcement').order_by_date(:asc)
+
+- if posts.empty?
+  %p.text-center None.
+- else
+  - posts.each do |post|
+    = partial 'post', locals: { post: post }

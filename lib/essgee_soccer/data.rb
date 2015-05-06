@@ -17,6 +17,10 @@ class  Data
     end
   end
 
+  def empty?
+    @collection.empty?
+  end
+
   def where(param)
     k, v = param.shift
     selected = self.select { |e| e[k.to_s] == v }
